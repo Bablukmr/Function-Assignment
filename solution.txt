@@ -1,0 +1,2 @@
+The restore command help to unstage or even discord uncommited local changes.
+and git restote --staged removes the file from the staging area, but leaves its actual modification untouched.
