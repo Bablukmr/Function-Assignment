@@ -1,24 +1,38 @@
 import logo from './logo.svg';
-import './App.css';
+  import './App.css';
+//Create the following ui , in react app .
+//First create this ui by writing all the code in the same file called App.js .
 
-function App() {
+export function ReactLogo() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <ol>
-        <h4>Benifits of using reacts</h4>
+    
+      </header>
+    </div>
+  );
+}
+ //App;
+
+export function ReactBenifit(){
+  return(
+    <div>
+    <h4>Benifits of using reacts</h4>
+
+<ol>
         <li>components-based architecture</li>
         <li>virtual DOM for efficient update</li>
         <li>Rich ecosystem and community</li>
         <li>Cross-platform development</li>
         <li>Strong community support</li>
-        <button>Get Started...</button>
         </ol>
-        
-      </header>
-    </div>
+        </div>
   );
 }
 
-export default App;
+export function Button(){
+  return(
+    <button>Get Started...</button>
+  )
+}
