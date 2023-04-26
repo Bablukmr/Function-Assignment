@@ -10,9 +10,11 @@ button{
   background-color: rgb(21, 174, 108);
   height: 35px;
   width: 80px;
+  border-radius: 8px;
 } 
 input{
 height: 25px;
 width: 400px;
   background-color: rgb(206, 224, 188);
+  border-radius: 8px;
 }
