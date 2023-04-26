@@ -1,7 +1,8 @@
-.Product{
-width: 250px;
+.Css{
+
+    width: 250px;
 height:auto;
-background-color: rgb(167, 167, 209);
+background-color: rgb(221, 221, 234);
 padding: 40px;
 margin: 50px;
 box-shadow: rgb(6, 95, 10);
@@ -10,10 +11,4 @@ border: 2px saddlebrown;
 box-shadow: 4px 4px 4px 4px rgb(209, 94, 94);
 justify-content: space-around;
 
-}
-.App{
-display: flex;
-}
-.App2{
-  display: flex;
 }
