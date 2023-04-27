@@ -1,0 +1,22 @@
+
+.App{
+    text-align: center;
+  color: rgb(151, 33, 214);
+  padding: 30px;
+  
+  }
+  
+  button{
+  background-color: rgb(196, 56, 13);
+    height: 40px;
+    border-radius: 12px;
+    margin: 10px;
+  }
+  
+  input{
+    background-color: rgb(55, 228, 199);
+    border-radius: 12px;
+  width: 300px;
+    height: 40px;
+    text-align: left;
+  }

@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Invitation from './Invitation';
+import LukyGame from './luckyGame/luckyGame';
+
 
 function App() {
   return (
- <Invitation/>
+<LukyGame/>
+
   );
 }
 
