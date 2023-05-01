@@ -11,7 +11,6 @@ function click(){
   alert(name)
 }
 
-
   return (
    <div className='App'>
       <File />
