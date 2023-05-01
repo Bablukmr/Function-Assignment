@@ -2,14 +2,15 @@
   text-align: center;
   margin: 50px;
 }
-input{
- 
-  width: 200px;
-  height: 60px;
-}
+
 button{
   height: 40px;
-  width: 100px;
+  width: 200px;
   border-radius: 20px;
   background:rgb(30, 141, 129);
+
+}
+img{
+  border-radius: 60px;
+  padding: 30px;
 }

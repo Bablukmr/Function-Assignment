@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import File from './fileUploader.js';
+import ImageChanger from './useEffect';
 
 
 function App() {
@@ -13,7 +13,7 @@ function click(){
 
   return (
    <div className='App'>
-      <File />
+      <ImageChanger />
       </div>
   );
 }
