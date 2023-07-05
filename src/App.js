@@ -1,10 +1,10 @@
 import './App.css';
-import Calculator from './components/calculator/Calculator';
+import Students from './components/students_form/Students_form';
 
 function App() {
   return (
-    <div className="App">
-<Calculator/>
+    <div>
+<Students/>
     </div>
   );
 }
