@@ -1,7 +1,7 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { deleteUser, editUser } from './redux/CrudSlice';
-import './UserList.css'
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { deleteUser, editUser } from "./redux/CrudSlice";
+import "./UserList.css";
 
 function UserList() {
   const dispatch = useDispatch();
@@ -42,9 +42,9 @@ function UserList() {
         <tbody>
           {users.map((user, id) => (
             <tr key={id}>
-              <td>{user.name || ''}</td>
-              <td>{user.age || ''}</td>
-              <td>{user.university || ''}</td>
+              <td>{user.name || ""}</td>
+              <td>{user.age || ""}</td>
+              <td>{user.university || ""}</td>
               <td>
                 <button onClick={() => handleEdit(id)}>Edit</button>
                 <button onClick={() => handleDelete(id)}>Delete</button>

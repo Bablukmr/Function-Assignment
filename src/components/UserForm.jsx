@@ -28,25 +28,25 @@ function UserForm() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-      <div> <span>Name: </span> <input
+        <div> <span>Name: </span> <input
           type="text"
           placeholder="Enter your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         /></div>
-      <div><span>Age: </span>  <input
+        <div><span>Age: </span>  <input
           type="number"
           placeholder="Enter your Age"
           value={age}
           onChange={(e) => setAge(e.target.value)}
         /></div>
-    <div> <span>University: </span>   <input
+        <div> <span>University: </span>   <input
           type="text"
           placeholder="Enter your University"
           value={university}
           onChange={(e) => setUniversity(e.target.value)}
         /></div>
-      <div> <button>Add List</button></div> 
+        <div> <button>Add List</button></div>
       </form>
     </div>
   );
