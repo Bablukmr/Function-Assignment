@@ -1,0 +1,43 @@
+table {
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 5rem;
+    margin-left: 4rem;
+  }
+  table thead {
+    background-color: rgba(55, 171, 29, 0.79);
+    color: #fff;
+    font-size: 1.5rem;
+    
+  }
+  table thead {
+    background-color: rgba(55, 171, 29, 0.79);
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  table tbody tr td {
+    padding: 1rem;
+  }
+  table tbody tr:nth-child(even) {
+    background-color: rgba(186, 186, 205, 0.386);
+  }
+  /* button{
+    width: 4rem;
+    margin: .5rem;
+  } */
+button {
+    background-color: rgba(55, 171, 29, 0.79);
+    padding: 0.4rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+    margin: .5rem;
+    transition: opacity 0.2s ease-in-out;
+  }
+ button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }

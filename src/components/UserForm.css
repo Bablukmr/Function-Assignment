@@ -1,0 +1,12 @@
+form{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .4fr;
+    margin: 2rem;
+
+}
+input{
+    font-size: 1rem;
+    margin: .5rem;
+    height: 1.5rem;
+}
