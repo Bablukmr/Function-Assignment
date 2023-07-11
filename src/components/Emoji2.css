@@ -1,0 +1,8 @@
+.main_div{
+    width: 13rem;
+    height: 20rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-y: scroll;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
-import UserForm from './components/UserForm'
-import UserList from './components/UserList'
+import Emoji from './components/Emoji1'
+import Emoji2 from './components/Emoji2'
 
 function App() {
   return (
-    <div>
-     <UserForm/>
-     <UserList/>
+    <div style={{display:'flex',margin:'4rem', gap:'14rem'}}>
+<Emoji/>
+<Emoji2/>  
     </div>
   )
 }
